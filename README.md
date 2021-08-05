@@ -28,13 +28,13 @@ Importe o módulo principal <br>
 
 Se a classe da mensagem desejada já foi definida, basta importá-la.
 Caso contrário, você precisará construir as mensagens e classes sozinho, consulte os exemplos para obter mais informações. <br>
-`from Reckoning import predefinido`
+`from Reckoning import predefined
 
 Construir o analisador <br>
 `` `
 parser = core.Parser ([
-  predefinido.CLS_ACK,
-  predefinido.CLS_NAV
+  predefined.CLS_ACK,
+  predefined.CLS_NAV
 ])
 `` `
 
@@ -53,7 +53,7 @@ Bitfields também são retornados como duplicatas nomeadas e podem ser acessados
 Blocos repetidos são retornados como uma lista de blocos, os campos dentro de cada bloco também são chamados de tuplas. Todos os blocos repetidos nas mensagens predefinidas são denominados `RB`. <br>
 `` `
 para i no intervalo (len (payload.RB)):
-  imprimir (payload.RB [i] .gnssId, payload.RB [i] .flags.health)
+  print (payload.RB [i] .gnssId, payload.RB [i] .flags.health)
 `` `
 
 A melhor maneira de ver quais campos estão disponíveis é onde eles são definidos. No entanto, se você quiser inspecionar em tempo real, você pode `help (payload)` e olhar os atributos, ou usar o método protegido por tupla nomeado `payload._asdict ()` que retornará um dicionário ordenado de todos os atributos .
