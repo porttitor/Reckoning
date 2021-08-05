@@ -1,5 +1,7 @@
 <?php
 
+## Thread-safety support
+
 /** THREAD DE ENVIO DE E-MAIL *******************/
 class tEmail extends Thread
 {
