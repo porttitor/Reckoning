@@ -64,7 +64,7 @@ Para exemplos completos, consulte o diretório de exemplos.
 
 ## TODO's
 Quer contribuir? Sinta-se à vontade para enviar problemas ou solicitar solicitações.
-Nada neste pacote é muito complicado, por favor, dê um crack e me ajude a melhorar isso.
+Nada neste pacote é muito complicado, por favor, dê um contribuição e me ajude a melhorar isso.
 
 - Adicionar a capacidade de empacotar mensagens em pacotes para comunicações bidirecionais
 - Adicione mais e melhores testes
