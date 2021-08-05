@@ -5,6 +5,21 @@ Visão geral
 ###
 # Reckoning [![Build Status](https://travis-ci.org/porttitor/Reckoning.svg?branch=master)](https://travis-ci.org/porttitor/Reckoning)
 
+## Visão geral
+Este módulo fornece uma maneira simples de decodificar mensagens de dispositivos GPS no formato UBX.
+Como o módulo NEO-M8U de alta precisão que criei,
+<a href="https://docs.porttitor.com.br"> clique aqui para mais informações. </a> <br>
+<br>
+Este pacote não tem dependências! Isso é escrito em python puro usando apenas a lib padrão e oferece suporte a qualquer
+fluxo de bytes padrão. As mensagens predefinidas não são adicionadas ao analisador por padrão, o que permite
+você tem um controle rígido sobre quais mensagens podem ser analisadas.
+
+Esta é a implementação mais rápida de um analisador? Provavelmente não. Se a velocidade é crítica, então você
+provavelmente precisa escrever algo em C. Se você quiser algo que seja rápido o suficiente
+e fácil de usar, você está no lugar certo. Continue lendo.
+
+Suporta Python 3.5 e superior.
+
 ## Começo rápido
 
 Instale o pacote com pip <br>
